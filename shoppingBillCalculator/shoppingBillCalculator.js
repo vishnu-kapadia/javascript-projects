@@ -10,10 +10,7 @@ let notebookQty = 2;
 let penQty = 5;
 let bagQty = 1;
 
-let total =
-  notebook * notebookQty +
-  pen * penQty +
-  bag * bagQty;
+let total = notebook * notebookQty + pen * penQty + bag * bagQty;
 
 let discount = 150;
 let finalAmount = total - discount;
